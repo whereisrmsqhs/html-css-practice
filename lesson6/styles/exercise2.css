@@ -1,0 +1,14 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  margin-bottom: 0px;
+}
+.title {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.phrase {
+  font-size: 25px;
+}

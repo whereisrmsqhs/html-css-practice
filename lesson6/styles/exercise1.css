@@ -1,0 +1,68 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.tahoma-font {
+  font-family: Tahoma;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.second-problem {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.second-problem2 {
+  font-family: Arial;
+  font-size: 17px;
+  font-style: italic;
+  color: red;
+  margin-bottom: 20px;
+}
+.third-mainTitle {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 30px;
+}
+.third-subTitle {
+  font-family: Verdana;
+  color: gray;
+  margin-bottom: 25px;
+}
+.third-phrase {
+  font-family: Verda;
+  width: 250px;
+  margin-bottom: 18px;
+  line-height: 20px;
+}
+.third-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 17px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.fourth-title {
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+.fourth-sub {
+  font-family: Arial;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.fourth-learn {
+  font-family: Arial;
+  font-size: 18px;
+  text-align: center;
+  color: steelblue;
+  cursor: pointer;
+}
