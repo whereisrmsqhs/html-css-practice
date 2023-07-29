@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise2</title>
+    <style>
+      .profile {
+        display: inline-block;
+        border: 2px;
+        border-color: rgb(206, 206, 206);
+        border-style: solid;
+        padding: 6px 13px;
+        border-radius: 7px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.484);
+      }
+      .profile_img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 100px;
+        vertical-align: middle;
+        margin-right: 14px;
+      }
+      .tweet-content {
+        color: gray;
+        margin-right: 70px;
+        vertical-align: middle;
+      }
+      .tweet-btn {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        padding: 5px 12px;
+        border-radius: 17px;
+        margin-left: 10px;
+      }
+      .cat-profile {
+        width: 100%;
+        border: 2px;
+        border-color: rgb(206, 206, 206);
+        border-style: solid;
+        border-radius: 7px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.484);
+      }
+      .oliver {
+        object-fit: cover;
+      }
+      .cat-name {
+        margin-top: 5px;
+        margin-bottom: 2px;
+        padding-left: 7px;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .cat-content {
+        display: inline-block;
+        margin-top: 3px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: gray;
+      }
+      .add-btn {
+        margin-left: 7px;
+        border: none;
+        background-color: royalblue;
+        color: white;
+        padding: 8px 20px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+      .friend-logo {
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+        object-fit: cover;
+        border-radius: 13px;
+        vertical-align: middle;
+        margin-left: 7px;
+      }
+      .little-profile {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile">
+      <img class="profile_img" src="thumnails/aimyon1.png" /><span
+        class="tweet-content"
+        >What's happening?</span
+      ><button class="tweet-btn">Tweet</button>
+    </div>
+    <br /><br /><br />
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 40px;
+      "
+    >
+      <div class="cat-profile">
+        <img
+          class="oliver"
+          src="https://images.pexels.com/photos/2071873/pexels-photo-2071873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
+        <p class="cat-name">Oliver</p>
+        <div class="little-profile">
+          <img
+            class="friend-logo"
+            src="https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+          />
+          <p class="cat-content">2 mutual friends</p>
+        </div>
+        <button class="add-btn">Add Friend</button>
+      </div>
+      <div class="cat-profile">
+        <img
+          class="oliver"
+          src="https://images.pexels.com/photos/1643457/pexels-photo-1643457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
+        <p class="cat-name">Mimi</p>
+        <div class="little-profile">
+          <img
+            class="friend-logo"
+            src="https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+          />
+          <p class="cat-content">3 mutual friends</p>
+        </div>
+        <button class="add-btn">Add Friend</button>
+      </div>
+      <div class="cat-profile">
+        <img
+          class="oliver"
+          src="https://images.pexels.com/photos/5732461/pexels-photo-5732461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
+        <p class="cat-name">Rex</p>
+        <div class="little-profile">
+          <img
+            class="friend-logo"
+            src="https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+          />
+          <p class="cat-content">2 mutual friends</p>
+        </div>
+        <button class="add-btn">Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>
