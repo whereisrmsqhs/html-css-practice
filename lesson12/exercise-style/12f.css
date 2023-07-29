@@ -1,0 +1,34 @@
+.header {
+  background-color: rgb(80, 27, 131);
+  color: white;
+}
+
+.inner {
+  padding: 18px 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home {
+  width: 100px;
+  font-weight: bold;
+  padding: 15px 10px;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 13px 20px;
+  max-width: 650px;
+  border: none;
+  border-radius: 100px;
+}
+
+.download {
+  background-color: rgb(80, 27, 131);
+  color: white;
+  border-color: white;
+  border-style: solid;
+  font: 100;
+  padding: 3px 20px;
+}

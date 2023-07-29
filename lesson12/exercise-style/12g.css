@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  width: 300px;
+  align-items: center;
+}
+
+.profile_img {
+  width: 80px;
+  border: none;
+  border-radius: 50px;
+}
+
+.profile_info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.name,
+.nickname,
+.popular {
+  flex: 1;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.nickname,
+.popular {
+  color: gray;
+}
+
+.follow {
+  background-color: rgb(53, 53, 212);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 5px;
+}

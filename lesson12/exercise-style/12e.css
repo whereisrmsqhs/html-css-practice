@@ -1,0 +1,33 @@
+.list {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+}
+
+.content {
+  flex: 14;
+  font: 20px;
+  font-weight: bold;
+}
+
+.number {
+  flex: 1;
+  background-color: lightblue;
+  font: white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 3px 15px;
+}
